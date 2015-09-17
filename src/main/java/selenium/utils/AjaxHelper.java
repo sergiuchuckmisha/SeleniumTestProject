@@ -7,7 +7,7 @@ import selenium.browsers.WebDriverFactory;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 2:08 PM
  * purpose of the class is to accumulate methods which works with WebDriver page via JavaScript

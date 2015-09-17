@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 12:46 PM
  * this class wraps calls to WebDriver instance in order to add checks, try-catch etc to common WebDriver functions

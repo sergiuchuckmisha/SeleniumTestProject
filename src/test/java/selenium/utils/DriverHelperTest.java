@@ -8,7 +8,7 @@ import selenium.browsers.WebDriverFactory;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 7:08 PM
  * purpose of the class is to contain simple smoke web UI test which calls factory for Chrome browser, opens google

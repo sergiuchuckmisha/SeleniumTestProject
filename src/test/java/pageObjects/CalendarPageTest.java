@@ -2,15 +2,13 @@ package pageObjects;
 
 import org.junit.Test;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 6:28 PM
  * To change this template use File | Settings | File Templates.
@@ -34,7 +32,8 @@ public class CalendarPageTest {
 			date = format.parse(dateString);
 //			org.junit.Assert.assertEquals(getCalendarDayIdFromCertainDate(date),"app-calendar-month-ev-day-20150916"); //when test was in class being tested
 			org.junit.Assert.assertEquals(method.invoke(null,date),"20150916");
-		} catch (ParseException | NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {
+//		} catch (ParseException | NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {  //this is for Java7
+        } catch (Exception e) {                                                                                   //this is for Java6
 			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
 		}
 	}

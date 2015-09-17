@@ -2,7 +2,7 @@ package pageObjects;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 3:37 PM
  * purpose of this class is to describe properties common to all pages such as: isOnPage method

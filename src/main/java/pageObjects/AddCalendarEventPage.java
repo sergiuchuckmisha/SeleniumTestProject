@@ -6,7 +6,7 @@ import selenium.utils.DriverHelper;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 7:58 PM
  * To change this template use File | Settings | File Templates.

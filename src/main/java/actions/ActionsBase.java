@@ -4,7 +4,7 @@ import pageObjects.iPage;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 3:40 PM
  * purpose of this class is to describe methods common to all actions classes

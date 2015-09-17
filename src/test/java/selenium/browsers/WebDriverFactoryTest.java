@@ -5,7 +5,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 import static selenium.browsers.WebDriverFactory.browsers;
@@ -13,7 +12,7 @@ import static selenium.browsers.WebDriverFactory.browsers;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 6:40 PM
  * purpose of the class is to contain unit tests for WebDriverFactory class
@@ -46,8 +45,9 @@ public class WebDriverFactoryTest  extends SeleniumBaseTest {
 			WebDriverFactory.getDriver().get("http://www.google.com");
 			org.junit.Assert.assertNotNull(WebDriverFactory.getDriver().findElement(By.name("q")));
 
-		} catch ( NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {
-			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+//		} catch ( NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {  //this is for Java7
+        } catch (Exception e) {                                                                   //this is for Java6
+        e.printStackTrace();
 		}
 	}
 
@@ -66,7 +66,8 @@ public class WebDriverFactoryTest  extends SeleniumBaseTest {
 			WebDriverFactory.getDriver().get("http://www.google.com");
 			org.junit.Assert.assertNotNull(WebDriverFactory.getDriver().findElement(By.name("q")));
 
-		} catch ( NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {
+//		} catch ( NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {   //this is for Java7
+        } catch (Exception e) {                                                                   //this is for Java6
 			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
 		}
 	}
@@ -86,7 +87,8 @@ public class WebDriverFactoryTest  extends SeleniumBaseTest {
 			WebDriverFactory.getDriver().get("http://www.google.com");
 			org.junit.Assert.assertNotNull(WebDriverFactory.getDriver().findElement(By.name("q")));
 
-		} catch ( NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {
+//		} catch ( NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {         //this is for Java7
+        } catch (Exception e) {                                                                   //this is for Java6
 			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
 		}
 	}
@@ -107,7 +109,8 @@ public class WebDriverFactoryTest  extends SeleniumBaseTest {
 			WebDriverFactory.getDriver().get("http://www.google.com");
 			org.junit.Assert.assertNotNull(WebDriverFactory.getDriver().findElement(By.name("q")));
 
-		} catch ( NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {
+//		} catch ( NoSuchMethodException | IllegalAccessException |InvocationTargetException e) {  //this is for Java7
+    } catch (Exception e) {                                                                   //this is for Java6
 			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
 		}
 	}

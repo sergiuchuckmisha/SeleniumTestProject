@@ -6,7 +6,7 @@ import selenium.browsers.WebDriverFactory;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 7:29 PM
  * purpose of this class is to contain methods common to all test classes. e.g. clear browser before/after each test

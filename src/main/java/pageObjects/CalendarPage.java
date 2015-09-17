@@ -13,7 +13,7 @@ import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 3:03 PM
  * purpose of the class is to describe html elements on page

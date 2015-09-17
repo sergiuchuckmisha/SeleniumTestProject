@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 11:23 AM
  * pattern Factory

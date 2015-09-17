@@ -7,7 +7,7 @@ import java.io.File;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 10:41 AM
  * purpose of the class is to contain global configuration properties of the project
@@ -26,9 +26,9 @@ public class Config {
 
 		FIREBUG_VER = "1.10.4";
 		FIREFOX_PATH = "C:\\dev\\programs\\firefox\\firefox.exe";
-		DRIVER_CHROME_PATH = new File("C:\\dev\\programs\\drivers\\chromedriver.exe");
+		DRIVER_CHROME_PATH = new File("C:\\dev\\drivers\\chromedriver.exe");
 		CHROME_BROWSER_PATH = null; //"C:\\dev\\programs\\Google\\Chrome\\Application\\chrome.exe";
-		DRIVER_IE_PATH = new File("C:\\dev\\programs\\drivers\\IEDriverServer.exe");
+		DRIVER_IE_PATH = new File("C:\\dev\\drivers\\IEDriverServer.exe");
 
 		try {
 			if(StringUtils.isEmpty(getEnvVariable("browser")))//todo refactoring seems to be required because 2 checks (try/catch and if) are intersected

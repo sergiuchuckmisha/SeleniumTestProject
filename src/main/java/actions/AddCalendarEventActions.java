@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 9:03 PM
  * To change this template use File | Settings | File Templates.

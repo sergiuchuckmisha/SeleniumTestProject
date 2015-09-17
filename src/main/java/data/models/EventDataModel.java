@@ -2,7 +2,7 @@ package data.models;
 
 /**
  * Created with IntelliJ IDEA.
- * User: serhiymy
+ * User: sergiuchuckmisha
  * Date: 9/16/15
  * Time: 8:31 PM
  * purpose of the class is to describe model of Event business entity
